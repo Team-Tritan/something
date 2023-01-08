@@ -2,10 +2,11 @@ import 'package:alfred/alfred.dart';
 import './routes/router.dart';
 
 void main() async {
-  final aaa = Alfred();
-  final new Router(aaa)
+  final bitch = Alfred();
+  final aaa = new Router(bitch)
 
-  await aaa.listen();
+  await aaa.handleRoutes(bitch)
+  await bitch.listen();
 
-  print('fuck you pussy')
+  print('fuck you')
 }
