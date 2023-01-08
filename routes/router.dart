@@ -1,7 +1,6 @@
-import './index/index.dart';
+import "./index/index.dart";
 
-class Router(app){
-    handleRoutes(){
-        app.get('/', (req, res) => indexRoute(app));
-    }
+handleRoutes(router){
+  indexRoute(router);
 }
+

@@ -1,0 +1,8 @@
+name: fuckyou
+description: >-
+  Have you ever been fucked so hard that you literally want to die? No? Me either.
+version: 6.6.6
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+dependencies:
+  alfred: ^1.0.0+1
